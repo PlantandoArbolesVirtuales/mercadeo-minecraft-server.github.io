@@ -1,3 +1,4 @@
+@import "config/paletaColores.scss";
 @font-face {
     font-family: 'volaroid_scriptregular';
     src: url('fonts/volaroid_script-webfont.woff2') format('woff2'),
@@ -12,5 +13,5 @@
          font-style: normal;
          
         }
-@import "nav";
-@import "cuerpoIndex";
+@import "modules/nav.scss";
+@import "modules/cuerpoIndex.scss";
