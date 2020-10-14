@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "correrPug": "pug ./src -o ./public/views -w -P",
     "correrSass": "sass -w ./src/sass/:./public/views/css/",
-    "testCorrerPug":"pug ./test/pug -o ./test/views -w -P"
+    "testCorrerPug":"pug ./test/pug -o ./test/views -w -P",
+    "testCorrerSass":"sass -w ./test/views/assets/scss/:./test/views/assets/css/"
+
   },
   "author": "",
   "license": "ISC",

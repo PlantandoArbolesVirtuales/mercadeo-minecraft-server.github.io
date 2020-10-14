@@ -1,0 +1,9 @@
+mixin fotoContenedor(classesParaFiltro, fotoUbicacion, Texto)
+    div(class=`${classesParaFiltro}`)
+        a(href=`assets/img/portfolio/${fotoUbicacion}`)
+            .project_box_one
+                img(src=`assets/img/portfolio/${fotoUbicacion}`)
+                    .product_info: .product_info_text
+                        .product_info_text_inner
+                            i.ion.ion-plus
+                            h4= Texto

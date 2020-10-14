@@ -1,0 +1,21 @@
+a.menu-btn(href="javascript:void(0)")
+        i.ion.ion-grid
+.row.justify-content-center
+    div(class="col-lg-2 col-md-3 col-12 menu_block")
+        .logo-box: a(href="index.html")
+                img(src="images/logoPav.png", alt="alt")
+        .side_menu_section
+            ul.menu_nav
+                li: a(href="index.html") Index
+                li: a(href="unirse.html") Unirse
+                li: a(href="acerca") Acerca
+        .side_menu_section
+            h4.side_title filtrar por
+            ul#filtr-container.filter_nav
+                li.active(data-filter="*"): a(href="javascript:void(0)") Todo
+                li(data-filter=".branding"): a(href="javascript:void(0)") Branding
+                li(data-filter=".design"): a(href="javascript:void(0)") Diseño
+                li(data-filter=".photography"): a(href="javascript:void(0)") Fotografía
+                li(data-filter=".architecture"): a(href="javascript:void(0)") Arquitectura
+    div(class="col-lg-10 col-md-9 col-12 body_block  align-content-center")
+        block columnaDeIzquierda
