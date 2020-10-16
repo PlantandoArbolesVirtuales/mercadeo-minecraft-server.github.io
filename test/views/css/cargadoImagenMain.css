@@ -114,4 +114,36 @@ form {
     margin-right: 15px;
     padding: 25px 5em; }
 
-/*# sourceMappingURL=unirseMain.css.map */
+.bloqueCargadoImagen {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  align-items: center; }
+  .bloqueCargadoImagen .areaCarga {
+    padding: 12em 25em;
+    background-color: #f4a127ff; }
+  .bloqueCargadoImagen .botonModificar {
+    padding: 10px;
+    background: wheat;
+    margin: 1em; }
+
+.boton#botonInvisible {
+  visibility: hidden; }
+
+.barraSiguiente {
+  background: #5a3d2bff;
+  display: flex;
+  height: 30%;
+  align-items: center; }
+
+.boton {
+  background: #f4a127ff;
+  padding: 25px 2em;
+  margin-left: 20px; }
+  .boton#siguiente {
+    margin-left: auto;
+    margin-right: 15px;
+    padding: 25px 5em; }
+
+/*# sourceMappingURL=cargadoImagenMain.css.map */
