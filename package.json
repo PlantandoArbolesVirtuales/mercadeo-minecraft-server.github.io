@@ -7,15 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "correrPug": "pug ./src -o ./public/views -w -P",
     "correrSass": "sass -w ./src/sass/:./public/views/css/",
-    "testCorrerPug":"pug ./test/pug -o ./test/views -w -P",
-    "testCorrerSass":"sass -w ./test/pug/sass/:./test/views/css/",
+    "testCorrerPug": "pug ./test/pug -o ./test/views -w -P",
+    "testCorrerSass": "sass -w ./test/pug/sass/:./test/views/css/",
     "tisgPug": "pug ./tisg/src/ -o ./tisg/public/views -w -P",
-    "tisgSass":"sass -w ./tisg/src/sass/:./tisg/public/views/css/",
+    "tisgSass": "sass -w ./tisg/src/sass/:./tisg/public/views/css/",
     "assetsTisgSass": "sass -w ./tisg/public/views/assets/scss/:./tisg/public/views/assets/css/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jstransformer-markdown-it": "^2.1.0"
+  },
+  "dependencies": {
+    "pug-cli2": "^1.0.0-alpha6.1"
   }
 }
