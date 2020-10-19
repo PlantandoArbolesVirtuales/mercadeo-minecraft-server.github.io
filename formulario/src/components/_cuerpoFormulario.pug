@@ -1,0 +1,9 @@
+.contenedor
+    .parteDerecha#formulario
+        form(action="")
+            include modules/_input
+            +bloqueInput("Nombre ", "Apellidos")
+            +bloqueInput("Correo Electrónico", "Contraseña")
+        .barraSiguiente
+            .boton Iniciar sesión Google
+            .boton#siguiente Siguiente
