@@ -5,13 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "correrPug": "pug ./src -o ./public/views -w -P",
-    "correrSass": "sass -w ./src/sass/:./public/views/css/",
-    "testCorrerPug":"pug ./test/pug -o ./test/views -w -P",
-    "testCorrerSass":"sass -w ./test/pug/sass/:./test/views/css/",
-    "tisgPug": "pug ./tisg/src/ -o ./tisg/public/views -w -P",
-    "tisgSass":"sass -w ./tisg/src/sass/:./tisg/public/views/css/",
-    "assetsTisgSass": "sass -w ./tisg/public/views/assets/scss/:./tisg/public/views/assets/css/"
+    "sassCargaImagen": "sass -w cargaImagen/sass/:cargaImagen/views/css/",
+    "pugCargaImagen": "pug -w cargaImagen/pug/ -o cargaImagen/views/"
   },
   "author": "",
   "license": "ISC",
