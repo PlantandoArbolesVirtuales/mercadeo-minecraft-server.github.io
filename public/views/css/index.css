@@ -1,67 +1,58 @@
-@font-face {
-  font-family: 'volaroid_scriptregular';
-  src: url("fonts/volaroid_script-webfont.woff2") format("woff2"), url("fonts/volaroid_script-webfont.woff") format("woff"); }
-@font-face {
-  font-family: 'maxwell_boldregular';
-  src: url("fonts/maxwell_bold-webfont.woff2") format("woff2"), url("fonts/maxwell_bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'volaroid_scriptregular';
-  src: url("fonts/volaroid_script-webfont.woff2") format("woff2"), url("fonts/volaroid_script-webfont.woff") format("woff"); }
-a {
-  text-decoration: none;
-  color: inherit; }
+/*
+Error: File to import not found or unreadable: config/paletaColores.scss.
+       Load path: C:/Users/PC/Desktop/pav/src/sass
+        on line 1 of ./src/sass/index.scss
 
-ul {
-  display: flex;
-  justify-content: flex-end;
-  background: #ffecb4ff;
-  margin: 0 0;
-  align-items: center;
-  height: 25%; }
+1: @import "config/paletaColores.scss";
+2: @font-face {
+3:     font-family: 'volaroid_scriptregular';
+4:     src: url('fonts/volaroid_script-webfont.woff2') format('woff2'),
+5:          url('fonts/volaroid_script-webfont.woff') format('woff');
+6:   }
 
-li {
-  color: #5a3d2bff;
-  margin: 0 25px;
-  list-style-type: none;
-  font-family: 'volaroid_scriptregular'; }
-
-a, img {
-  width: 60px;
-  margin-right: auto;
-  margin-left: -15px; }
-
-body {
-  margin: 0; }
-
-.bloque {
-  display: flex;
-  background: #5a3d2bff;
-  height: 30vh;
-  align-items: center;
-  justify-content: center; }
-  .bloque .titulo {
-    margin-right: auto;
-    align-self: flex-start;
-    font-family: 'volaroid_scriptregular';
-    font-size: 40px;
-    font-width: 50%; }
-  .bloque .descripcionDelTitulo {
-    font-family: 'maxwell_boldregular';
-    font-size: 23px; }
-  .bloque .bloqueInvisible {
-    margin-left: auto; }
-  .bloque .titulo, .bloque .descripcionDelTitulo {
-    color: white;
-    flex: 1; }
-
-.bloque:nth-child(even) {
-  display: flex;
-  background: #75c8aeff;
-  height: 30vh;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row-reverse; }
-
-/*# sourceMappingURL=index.css.map */
+Backtrace:
+./src/sass/index.scss:1
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+C:/Ruby26-x64/bin/sass:23:in `load'
+C:/Ruby26-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: config/paletaColores.scss.\A        Load path: C:/Users/PC/Desktop/pav/src/sass\A         on line 1 of ./src/sass/index.scss\A \A 1: @import \"config/paletaColores.scss\";\A 2: @font-face {\A 3:     font-family: 'volaroid_scriptregular';\A 4:     src: url('fonts/volaroid_script-webfont.woff2') format('woff2'),\A 5:          url('fonts/volaroid_script-webfont.woff') format('woff');\A 6:   }"; }
