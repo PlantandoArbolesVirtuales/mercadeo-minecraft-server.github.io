@@ -96,4 +96,10 @@ form {
       -moz-box-shadow: none;
       box-shadow: none; }
 
+.barraSiguiente {
+  background: #5a3d2b;
+  display: flex;
+  height: 30%;
+  align-items: center; }
+
 /*# sourceMappingURL=template.css.map */

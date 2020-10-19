@@ -96,38 +96,10 @@ form {
       -moz-box-shadow: none;
       box-shadow: none; }
 
-.blocContenido {
-  display: flex;
-  margin: auto;
-  width: 90%;
-  flex-direction: column;
-  height: 80%;
-  text-align: center; }
-
-.titularUnirse, .descripcionUnirse, .barraSiguiente {
-  flex: 1;
-  background-color: #5a3d2b;
-  color: white; }
-
-.titularUnirse {
-  font-size: 3em; }
-
-.descripcionUnirse {
-  font-size: 2em; }
-
 .barraSiguiente {
   background: #5a3d2b;
   display: flex;
   height: 30%;
   align-items: center; }
-
-.boton {
-  background: #f4a127ff;
-  padding: 25px 2em;
-  margin-left: 25%; }
-  .boton#siguiente {
-    margin-left: auto;
-    margin-right: 25%;
-    padding: 25px 5em; }
 
 /*# sourceMappingURL=unirseMain.css.map */
