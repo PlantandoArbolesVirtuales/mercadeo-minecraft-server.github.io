@@ -6,10 +6,11 @@
   "functions": {
     "predeploy": [
       "npm --prefix \"$RESOURCE_DIR\" run lint"
-    ]
+    ],
+    "source": "functions"
   },
   "hosting": {
-    "public": "tisg/public/views/",
+    "public": "formulario/views/",
     "ignore": [
       "firebase.json",
       "**/.*",
